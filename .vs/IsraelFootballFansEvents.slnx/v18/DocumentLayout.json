@@ -1,0 +1,672 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.client\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|solutionrelative:israelfootballfansevents.client\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.client\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|solutionrelative:israelfootballfansevents.client\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|solutionrelative:israelfootballfansevents.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\interfaces\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\interfaces\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\eventdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\eventdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\israelfootballfansevents.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\israelfootballfansevents.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\israelfootballfansevents.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\israelfootballfansevents.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.client\\israelfootballfansevents.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|solutionrelative:israelfootballfansevents.client\\israelfootballfansevents.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9492D68-6605-60EB-6DCC-B18A8B239839}|IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj|solutionrelative:israelfootballfansevents.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\israelfootballfansevents.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\israelfootballfansevents.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\eventbymonthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\eventbymonthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\popularsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\popularsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\repositories\\statisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\repositories\\statisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\interfaces\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\interfaces\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\sessionuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\sessionuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\userscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\userscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.webapi\\dtos\\sessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F49784-5283-0C8D-B9B6-73397745E7E8}|IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj|solutionrelative:israelfootballfansevents.webapi\\dtos\\sessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\repositories\\sessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\repositories\\sessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\interfaces\\isessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\interfaces\\isessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|c:\\users\\user\\source\\repos\\israelfootballfansevents\\israelfootballfansevents.data\\models\\eventsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB3F43-9265-634F-23B1-D0AC8B1FD022}|IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj|solutionrelative:israelfootballfansevents.data\\models\\eventsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IStatisticsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IStatisticsRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Interfaces\\IStatisticsRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IStatisticsRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Interfaces\\IStatisticsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T23:05:05.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA3wD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:15:54.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Services\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\RegistrationService.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Services\\RegistrationService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:15:13.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SessionUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\SessionUserDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\SessionUserDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\SessionUserDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\SessionUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:15:00.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserScheduleDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\UserScheduleDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\UserScheduleDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\UserScheduleDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\UserScheduleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:14:44.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\RegistrationDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\RegistrationDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\RegistrationDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\RegistrationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:14:11.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\RegistrationRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Repositories\\RegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\RegistrationRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Repositories\\RegistrationRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA0wEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:13:27.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IRegistrationRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Interfaces\\IRegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IRegistrationRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Interfaces\\IRegistrationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:13:10.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Services\\SessionService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\SessionService.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Services\\SessionService.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAjwK0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T23:54:20.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Program.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:06:03.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\wwwroot\\index.html",
+              "RelativeToolTip": "IsraelFootballFansEvents.Client\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-09T00:51:47.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.Client\\wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\wwwroot\\style.css",
+              "RelativeToolTip": "IsraelFootballFansEvents.Client\\wwwroot\\style.css",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAowGQBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-09T00:52:18.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\EventDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\EventDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\EventDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\EventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:58:28.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\WeatherService.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Services\\WeatherService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T22:51:02.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\EventService.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Services\\EventService.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAjwK8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:05:15.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Controllers\\SessionController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Controllers\\SessionController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAWwFcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T00:00:29.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\EventController.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Controllers\\EventController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:05:42.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\wwwroot\\script.js",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.Client\\wwwroot\\script.js",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\wwwroot\\script.js",
+              "RelativeToolTip": "IsraelFootballFansEvents.Client\\wwwroot\\script.js",
+              "ViewState": "AgIAAKEEAAAAAAAAAAAAwLUEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-09T00:52:37.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\EventDetailsDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\EventDetailsDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\EventDetailsDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\EventDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T19:41:42.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StatisticsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\StatisticsRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Repositories\\StatisticsRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\StatisticsRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Repositories\\StatisticsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T23:05:20.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StatisticsDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\StatisticsDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\StatisticsDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\StatisticsDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\StatisticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T23:05:39.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PopularSessionDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\PopularSessionDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\PopularSessionDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\PopularSessionDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\PopularSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T23:07:35.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EventByMonthDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\EventByMonthDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\EventByMonthDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\EventByMonthDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\EventByMonthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T23:07:50.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T17:58:45.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T17:59:02.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T17:59:14.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\UserService.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T17:59:28.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Services\\StatisticsService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Services\\StatisticsService.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Services\\StatisticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T23:08:14.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IsraelFootballFansEvents.DATA.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\IsraelFootballFansEvents.DATA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-06T21:42:59.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IsraelFootballFansEvents.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.http",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.http",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.http",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-07-09T00:49:04.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IsraelFootballFansEvents.WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-06T22:58:06.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IsraelFootballFansEvents.Client.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj",
+              "RelativeToolTip": "IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-09T00:50:06.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\Program.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.Client\\Program.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T00:00:45.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T23:08:33.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SessionDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\SessionDto.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.WebApi\\DTOs\\SessionDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.WebApi\\DTOs\\SessionDto.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.WebApi\\DTOs\\SessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T23:53:43.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\SessionRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Repositories\\SessionRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\SessionRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Repositories\\SessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T23:52:45.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ISessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\ISessionRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Interfaces\\ISessionRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\ISessionRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Interfaces\\ISessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T23:52:06.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:53:13.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Interfaces\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:51:19.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EventSystemContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Models\\EventSystemContext.cs",
+              "RelativeDocumentMoniker": "IsraelFootballFansEvents.DATA\\Models\\EventSystemContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\IsraelFootballFansEvents\\IsraelFootballFansEvents.DATA\\Models\\EventSystemContext.cs",
+              "RelativeToolTip": "IsraelFootballFansEvents.DATA\\Models\\EventSystemContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:59:25.744Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="IsraelFootballFansEvents.Client/IsraelFootballFansEvents.Client.csproj" />
+  <Project Path="IsraelFootballFansEvents.DATA/IsraelFootballFansEvents.DATA.csproj" />
+  <Project Path="IsraelFootballFansEvents.WebApi/IsraelFootballFansEvents.WebApi.csproj" />
+  <Project Path="IsraelFootballFansEvents/IsraelFootballFansEvents.vcxproj" Id="333e8250-c444-4405-9a52-e54d27da1ca1">
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+</Solution>

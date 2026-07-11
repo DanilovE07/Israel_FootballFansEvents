@@ -1,0 +1,6 @@
+wwwroot\index.html
+wwwroot\script.js
+wwwroot\style.css
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.Client\wwwroot\index.html
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.Client\wwwroot\script.js
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.Client\wwwroot\style.css

@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\bin\Debug\net10.0\IsraelFootballFansEvents.DATA.deps.json
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\bin\Debug\net10.0\IsraelFootballFansEvents.DATA.runtimeconfig.json
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\bin\Debug\net10.0\IsraelFootballFansEvents.DATA.dll
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\bin\Debug\net10.0\IsraelFootballFansEvents.DATA.pdb
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.AssemblyInfo.cs
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.dll
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\refint\IsraelFootballFansEvents.DATA.dll
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.pdb
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\IsraelFootballFansEvents.DATA.genruntimeconfig.cache
+C:\Users\User\source\repos\IsraelFootballFansEvents\IsraelFootballFansEvents.DATA\obj\Debug\net10.0\ref\IsraelFootballFansEvents.DATA.dll

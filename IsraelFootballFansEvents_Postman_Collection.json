@@ -1,0 +1,315 @@
+{
+  "info": {
+    "name": "Israel Football Fans Events - Final API Tests",
+    "_postman_id": "11111111-2222-3333-4444-555555555555",
+    "description": "Postman collection for the EventSystem final project. Includes valid API calls and edge cases such as duplicate registration and time overlap.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "apiBase",
+      "value": "https://localhost:7193/api",
+      "type": "string"
+    },
+    {
+      "key": "eventId",
+      "value": "3",
+      "type": "string"
+    },
+    {
+      "key": "sessionId",
+      "value": "9",
+      "type": "string"
+    },
+    {
+      "key": "userId",
+      "value": "1",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "01 - Event",
+      "item": [
+        {
+          "name": "GET - Event Schedule",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/Event/schedule"
+          }
+        },
+        {
+          "name": "GET - Event Details By Id Includes Sessions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/Event/{{eventId}}"
+          }
+        },
+        {
+          "name": "POST - Create Event - Valid",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 0,\n    \"title\": \"Postman Test Football Event\",\n    \"description\": \"Event created from Postman collection\",\n    \"startDate\": \"2026-12-01T10:00:00\",\n    \"endDate\": \"2026-12-01T14:00:00\",\n    \"location\": \"Ruppin Academic Center\",\n    \"eventType\": \"Postman Test\"\n}"
+            },
+            "url": "{{apiBase}}/Event"
+          }
+        },
+        {
+          "name": "POST - Create Event - Invalid Dates",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 0,\n    \"title\": \"Invalid Date Event\",\n    \"description\": \"This should fail because start date is after end date\",\n    \"startDate\": \"2026-12-01T15:00:00\",\n    \"endDate\": \"2026-12-01T14:00:00\",\n    \"location\": \"Ruppin Academic Center\",\n    \"eventType\": \"Invalid Test\"\n}"
+            },
+            "url": "{{apiBase}}/Event"
+          }
+        },
+        {
+          "name": "PUT - Update Event",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 3,\n    \"title\": \"Israel National Team Fans Day 2026 - Updated\",\n    \"description\": \"Updated from Postman\",\n    \"startDate\": \"2026-08-10T17:00:00\",\n    \"endDate\": \"2026-08-10T23:00:00\",\n    \"location\": \"Bloomfield Stadium\",\n    \"eventType\": \"Football Fan Experience\"\n}"
+            },
+            "url": "{{apiBase}}/Event/{{eventId}}"
+          }
+        },
+        {
+          "name": "DELETE - Delete Event",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": "{{apiBase}}/Event/{{eventId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "02 - Session",
+      "item": [
+        {
+          "name": "GET - Sessions By Event",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/Event/{{eventId}}/sessions"
+          }
+        },
+        {
+          "name": "GET - Session By Id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/Session/{{sessionId}}"
+          }
+        },
+        {
+          "name": "POST - Create Session - Valid",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 0,\n    \"eventId\": 3,\n    \"title\": \"Postman Test Session\",\n    \"description\": \"Session created from Postman\",\n    \"speakerName\": \"Postman Tester\",\n    \"startTime\": \"2026-08-10T18:30:00\",\n    \"endTime\": \"2026-08-10T19:30:00\",\n    \"roomName\": \"Postman Room\"\n}"
+            },
+            "url": "{{apiBase}}/Event/{{eventId}}/session"
+          }
+        },
+        {
+          "name": "POST - Create Session - Invalid Time Outside Event",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 0,\n    \"eventId\": 3,\n    \"title\": \"Invalid Session Outside Event\",\n    \"description\": \"This should fail because session time is outside the event time\",\n    \"speakerName\": \"Tester\",\n    \"startTime\": \"2026-08-11T01:00:00\",\n    \"endTime\": \"2026-08-11T02:00:00\",\n    \"roomName\": \"Room X\"\n}"
+            },
+            "url": "{{apiBase}}/Event/{{eventId}}/session"
+          }
+        },
+        {
+          "name": "POST - Create Session - Room Overlap Edge Case",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 0,\n    \"eventId\": 3,\n    \"title\": \"Room Overlap Test\",\n    \"description\": \"This should fail if there is another session in the same room and overlapping time\",\n    \"speakerName\": \"Tester\",\n    \"startTime\": \"2026-08-10T17:45:00\",\n    \"endTime\": \"2026-08-10T18:15:00\",\n    \"roomName\": \"Fans Zone\"\n}"
+            },
+            "url": "{{apiBase}}/Event/{{eventId}}/session"
+          }
+        },
+        {
+          "name": "PUT - Update Session",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 9,\n    \"eventId\": 3,\n    \"title\": \"Match Screening - Updated\",\n    \"description\": \"Updated from Postman\",\n    \"speakerName\": \"Event Team\",\n    \"startTime\": \"2026-08-10T20:00:00\",\n    \"endTime\": \"2026-08-10T22:30:00\",\n    \"roomName\": \"Big Screen Area\"\n}"
+            },
+            "url": "{{apiBase}}/Session/{{sessionId}}"
+          }
+        },
+        {
+          "name": "DELETE - Delete Session",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": "{{apiBase}}/Session/{{sessionId}}"
+          }
+        },
+        {
+          "name": "GET - Users Registered To Session",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/Session/{{sessionId}}/user"
+          }
+        }
+      ]
+    },
+    {
+      "name": "03 - Registration",
+      "item": [
+        {
+          "name": "POST - Register User To Session - Valid",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"userId\": 1\n}"
+            },
+            "url": "{{apiBase}}/Session/{{sessionId}}/register"
+          }
+        },
+        {
+          "name": "POST - Register User To Session - Duplicate Edge Case",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"userId\": 1\n}"
+            },
+            "url": "{{apiBase}}/Session/{{sessionId}}/register"
+          }
+        },
+        {
+          "name": "POST - Register User To Overlapping Session - Edge Case",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"userId\": 1\n}"
+            },
+            "url": "{{apiBase}}/Session/10/register"
+          }
+        }
+      ]
+    },
+    {
+      "name": "04 - User",
+      "item": [
+        {
+          "name": "GET - All Users",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/User"
+          }
+        },
+        {
+          "name": "GET - User Schedule",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/User/{{userId}}/schedule"
+          }
+        }
+      ]
+    },
+    {
+      "name": "05 - Weather And Statistics",
+      "item": [
+        {
+          "name": "GET - Event Weather With Cache",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/Event/{{eventId}}/weather"
+          }
+        },
+        {
+          "name": "GET - Statistics",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{apiBase}}/Statistics"
+          }
+        }
+      ]
+    }
+  ]
+}

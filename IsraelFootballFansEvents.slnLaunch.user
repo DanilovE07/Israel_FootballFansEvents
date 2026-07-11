@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "IsraelFootballFansEvents.Client\\IsraelFootballFansEvents.Client.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "IsraelFootballFansEvents.WebApi\\IsraelFootballFansEvents.WebApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

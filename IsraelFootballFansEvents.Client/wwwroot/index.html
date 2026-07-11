@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Israel Football Fans Events</title>
+    <link rel="stylesheet" href="style.css?v=10" />
+</head>
+<body>
+    <header>
+        <h1>Israel Football Fans Events</h1>
+        <p>Manage football fan events, sessions, registrations, weather and statistics</p>
+    </header>
+
+
+    <nav class="navbar">
+        <a href="#dashboardSection">Dashboard</a>
+        <a href="#eventsSection">Events</a>
+        <a href="#eventDetailsSection">Event Details</a>
+        <a href="#adminEventsSection">Manage Events</a>
+        <a href="#adminSessionsSection">Manage Sessions</a>
+        <a href="#eventSessionsSection">Event Sessions</a>
+        <a href="#registerSection">Register</a>
+        <a href="#scheduleSection">User Schedule</a>
+        <a href="#weatherSection">Weather</a>
+        <a href="#statisticsSection">Statistics</a>
+    </nav>
+
+    <main>
+        <section class="card" id="dashboardSection">
+            <h2>Dashboard</h2>
+
+            <button onclick="loadDashboardStats()">Refresh Dashboard</button>
+
+            <div id="dashboardContainer" class="dashboard">
+                <div class="dashboard-box">
+                    <h3>Total Events</h3>
+                    <p id="dashboardEvents">-</p>
+                </div>
+
+                <div class="dashboard-box">
+                    <h3>Total Sessions</h3>
+                    <p id="dashboardSessions">-</p>
+                </div>
+
+                <div class="dashboard-box">
+                    <h3>Total Registrations</h3>
+                    <p id="dashboardRegistrations">-</p>
+                </div>
+
+                <div class="dashboard-box">
+                    <h3>Average Per Session</h3>
+                    <p id="dashboardAverage">-</p>
+                </div>
+            </div>
+
+            <p id="dashboardPopularSession"></p>
+            <p id="dashboardResult"></p>
+        </section>
+        <section class="card" id="eventsSection">
+            <h2>All Events</h2>
+            <button onclick="loadEvents()">Load Events</button>
+            <div id="eventsContainer"></div>
+        </section>
+
+        <section class="card" id="eventDetailsSection">
+            <h2>Event Details</h2>
+
+            <p>Select an event from the Events list by clicking View Details.</p>
+
+            <label>Choose User For Registration:</label>
+            <select id="detailsUserId">
+                <option value="">Choose user</option>
+            </select>
+
+            <div id="eventDetailsContainer"></div>
+            <div id="eventDetailsWeatherContainer"></div>
+            <div id="eventDetailsSessionsContainer"></div>
+            <p id="eventDetailsResult"></p>
+        </section>
+
+        <section class="card" id="adminEventsSection">
+            <h2>Admin - Manage Events</h2>
+
+            <h3>Create New Event</h3>
+
+            <label>Title:</label>
+            <input type="text" id="createEventTitle" placeholder="Event title" />
+
+            <label>Description:</label>
+            <input type="text" id="createEventDescription" placeholder="Event description" />
+
+            <label>Start Date:</label>
+            <input type="datetime-local" id="createEventStartDate" />
+
+            <label>End Date:</label>
+            <input type="datetime-local" id="createEventEndDate" />
+
+            <label>Location:</label>
+            <input type="text" id="createEventLocation" placeholder="Event location" />
+
+            <label>Event Type:</label>
+            <input type="text" id="createEventType" placeholder="Event type" />
+
+            <button onclick="createNewEvent()">Create Event</button>
+
+            <hr />
+
+            <h3>Update Event</h3>
+
+            <label>Event Id:</label>
+            <input type="number" id="updateEventId" placeholder="Event Id" />
+
+            <button onclick="loadEventForUpdate()">Load Event For Update</button>
+
+            <br />
+
+            <label>Title:</label>
+            <input type="text" id="updateEventTitle" placeholder="Title" />
+
+            <label>Description:</label>
+            <input type="text" id="updateEventDescription" placeholder="Description" />
+
+            <label>Start Date:</label>
+            <input type="datetime-local" id="updateEventStartDate" />
+
+            <label>End Date:</label>
+            <input type="datetime-local" id="updateEventEndDate" />
+
+            <label>Location:</label>
+            <input type="text" id="updateEventLocation" placeholder="Location" />
+
+            <label>Event Type:</label>
+            <input type="text" id="updateEventType" placeholder="Event type" />
+
+            <button onclick="updateExistingEvent()">Update Event</button>
+
+            <hr />
+
+            <h3>Delete Event</h3>
+
+            <label>Event Id:</label>
+            <input type="number" id="deleteEventId" placeholder="Event Id" />
+
+            <button class="danger-button" onclick="deleteExistingEvent()">Delete Event</button>
+
+            <p id="adminEventResult"></p>
+        </section>
+
+        <section class="card" id="adminSessionsSection">
+            <h2>Admin - Manage Sessions</h2>
+
+            <h3>Create New Session</h3>
+
+            <label>Event Id:</label>
+            <input type="number" id="createSessionEventId" placeholder="Event Id" />
+
+            <button onclick="loadCreateSessionTimeOptions()">Load Time Options</button>
+
+            <br />
+
+            <label>Title:</label>
+            <input type="text" id="createSessionTitle" placeholder="Session title" />
+
+            <label>Description:</label>
+            <input type="text" id="createSessionDescription" placeholder="Session description" />
+
+            <label>Speaker Name:</label>
+            <input type="text" id="createSessionSpeakerName" placeholder="Speaker name" />
+
+            <label>Start Time:</label>
+            <select id="createSessionStartTime" onchange="updateCreateSessionEndTimes()">
+                <option value="">Choose start time</option>
+            </select>
+
+            <label>End Time:</label>
+            <select id="createSessionEndTime">
+                <option value="">Choose end time</option>
+            </select>
+
+            <label>Room Name:</label>
+            <input type="text" id="createSessionRoomName" placeholder="Room name" />
+
+            <button onclick="createNewSession()">Create Session</button>
+
+            <hr />
+
+            <h3>Update Session</h3>
+
+            <label>Event Id:</label>
+            <input type="number" id="updateSessionEventId" placeholder="Event Id" />
+
+            <button onclick="loadSessionsForUpdateEvent()">Load Sessions For Event</button>
+
+            <br />
+
+            <label>Choose Session:</label>
+            <select id="updateSessionSelect">
+                <option value="">Choose session</option>
+            </select>
+
+            <button onclick="loadSessionForUpdate()">Load Session For Update</button>
+
+            <input type="hidden" id="updateSessionId" />
+
+            <br />
+
+            <label>Title:</label>
+            <input type="text" id="updateSessionTitle" placeholder="Session title" />
+
+            <label>Description:</label>
+            <input type="text" id="updateSessionDescription" placeholder="Session description" />
+
+            <label>Speaker Name:</label>
+            <input type="text" id="updateSessionSpeakerName" placeholder="Speaker name" />
+
+            <label>Start Time:</label>
+            <select id="updateSessionStartTime" onchange="updateUpdateSessionEndTimes()">
+                <option value="">Choose start time</option>
+            </select>
+
+            <label>End Time:</label>
+            <select id="updateSessionEndTime">
+                <option value="">Choose end time</option>
+            </select>
+
+            <label>Room Name:</label>
+            <input type="text" id="updateSessionRoomName" placeholder="Room name" />
+
+            <button onclick="updateExistingSession()">Update Session</button>
+
+            <hr />
+
+            <h3>Delete Session</h3>
+
+            <label>Session Id:</label>
+            <input type="number" id="deleteSessionId" placeholder="Session Id" />
+
+            <button class="danger-button" onclick="deleteExistingSession()">Delete Session</button>
+
+            <p id="adminSessionResult"></p>
+        </section>
+
+        <section class="card" id="eventSessionsSection">
+            <h2>Event Sessions</h2>
+            <label>Event Id:</label>
+            <input type="number" id="eventIdInput" placeholder="Example: 3" />
+            <button onclick="loadSessions()">Load Sessions</button>
+            <div id="sessionsContainer"></div>
+        </section>
+
+        <section class="card" id="registerSection">
+            <h2>Register User To Session</h2>
+
+            <label>Event Id:</label>
+            <input type="number" id="registerEventId" placeholder="Example: 3" />
+
+            <button onclick="loadRegisterSessions()">Load Sessions</button>
+
+            <br />
+
+            <label>Choose Session:</label>
+            <select id="registerSessionId">
+                <option value="">Choose session</option>
+            </select>
+
+            <label>Choose User:</label>
+            <select id="registerUserId">
+                <option value="">Choose user</option>
+            </select>
+
+            <button onclick="registerUserToSession()">Register</button>
+
+            <p id="registerResult"></p>
+        </section>
+
+        <section class="card" id="scheduleSection">
+            <h2>User Schedule</h2>
+            <label>User Id:</label>
+            <select id="scheduleUserId">
+                <option value="">Choose user</option>
+            </select>
+            <button onclick="loadUserSchedule()">Load User Schedule</button>
+            <div id="userScheduleContainer"></div>
+        </section>
+
+        <section class="card" id="weatherSection">
+            <h2>Event Weather</h2>
+
+            <button onclick="loadWeatherEvents()">Load Events For Weather</button>
+
+            <br />
+
+            <label>Choose Event:</label>
+            <select id="weatherEventSelect">
+                <option value="">Choose event</option>
+            </select>
+
+            <button onclick="loadWeather()">Load Weather</button>
+
+            <div id="weatherContainer"></div>
+        </section>
+
+        <section class="card" id="statisticsSection">
+            <h2>Statistics</h2>
+            <button onclick="loadStatistics()">Load Statistics</button>
+            <div id="statisticsContainer"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
